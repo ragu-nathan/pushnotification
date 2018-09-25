@@ -1,0 +1,31 @@
+{
+  "name": "pushnotification",
+  "version": "1.0.0",
+  "description": "Web Push Notification With Node Js Restful API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragu-nathan/pushnotification.git"
+  },
+  "keywords": [
+    "push",
+    "notification"
+  ],
+  "author": "Ragunathan Maniraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragu-nathan/pushnotification/issues"
+  },
+  "homepage": "https://github.com/ragu-nathan/pushnotification#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17",
+    "q": "^1.5.1",
+    "web-push": "^3.3.3"
+  }
+}
